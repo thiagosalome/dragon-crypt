@@ -1,0 +1,87 @@
+@import "./base/reset";
+@import "./base/typography";
+
+body{
+  background-color: #efefef;
+}
+
+main{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-form{
+  background-color: #ffffff;
+  padding: 20px;
+  width: 300px;
+
+  header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  &__logo{
+    width: 50px;
+    animation: floating 1s infinite;
+  }
+
+  &__title{
+    font-family: 'Germania One', cursive;
+    font-size: 30px;
+    margin-left: 20px;
+    color: #2e2e2e;
+    
+    span{
+      font-family: inherit;
+      font-weight: lighter;
+      color: #56D353;
+    }
+  }
+
+  &__input, &__button{
+    width: 100%;
+    display: block;
+  }
+
+  &__input{
+    background-color: #efefef;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    margin: 10px 0;
+    outline: none;
+  }
+
+  &__button{
+    border: none;
+    color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: #56D353;
+    transition: all 0.2s ease-in-out;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0;
+    
+    &:hover{
+      cursor: pointer;
+      background-color: rgb(60, 189, 58);
+    }
+  }
+}
+
+@keyframes floating{
+  0%{
+    transform: translateY(-5px)
+  }
+  50%{
+    transform: translateY(5px)
+  }
+  100%{
+    transform: translateY(-5px)
+  }
+}

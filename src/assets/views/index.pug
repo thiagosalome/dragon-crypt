@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+html(lang="pt-br")
+  head
+    //- meta tags
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    //- link css
+    link(rel="stylesheet", href="./assets/css/app.css")
+    link(rel="shortcut icon", href="./assets/images/dragon.png", type="image/x-icon")
+    //- link fontawesome
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+    link(href="https://fonts.googleapis.com/css?family=Lato", rel="stylesheet")
+    //- site title
+    title Dragon Crypt
+  body
+    main
+      form.main-form(action="")
+        header
+          img.main-form__logo(src="./assets/images/dragon.png", alt="Dragon Crypt", title="Dragon Crypt")
+          h1.main-form__title 
+            | Dragon
+            span Crypt
+        label Password:
+        input.main-form__input(type="password", name="")
+        label Suffix:
+        input.main-form__input(type="text", name="")
+        input.main-form__button(type="submit", value="Transformar")
+        p.main-response Hello Dragon
+            
+           
+
