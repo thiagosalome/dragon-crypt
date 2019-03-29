@@ -15,16 +15,16 @@ html(lang="pt-br")
     title Dragon Crypt
   body
     main
-      form.main-form(action="")
+      form.main-form.js-main-form(action="")
         header
           img.main-form__logo(src="./assets/images/dragon.png", alt="Dragon Crypt", title="Dragon Crypt")
           h1.main-form__title 
             | Dragon
             span Crypt
         label Password:
-        input.main-form__input(type="password", name="")
+        input.main-form__input.js-password(type="password", name="")
         label Suffix:
-        input.main-form__input(type="text", name="")
+        input.main-form__input.js-sufix(type="text", name="")
         input.main-form__button(type="submit", value="Transformar")
         p.main-response Hello Dragon
             

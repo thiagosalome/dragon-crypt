@@ -37,7 +37,7 @@ main{
     
     span{
       font-family: inherit;
-      font-weight: lighter;
+      // font-weight: lighter;
       color: #56D353;
     }
   }
@@ -61,7 +61,8 @@ main{
     color: #ffffff;
     padding: 15px 20px;
     border-radius: 5px;
-    background-color: #56D353;
+    // background-color: #56D353;
+    background-color: #F4516D;
     transition: all 0.2s ease-in-out;
     font-size: 18px;
     font-weight: bold;
@@ -69,7 +70,8 @@ main{
     
     &:hover{
       cursor: pointer;
-      background-color: rgb(60, 189, 58);
+      // background-color: #3cbd3a;
+      background-color: rgb(223, 66, 92);
     }
   }
 }
