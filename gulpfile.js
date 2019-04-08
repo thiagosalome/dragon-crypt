@@ -34,9 +34,9 @@ gulp.task("sass", () => {
 gulp.task("script", () => {
     gulp.src(filescript)
         .pipe(babel({
-            presets: ['@babel/env']
+            presets: ['@babel/preset-env']
         }))
-        .pipe(concat("app.js"))
+        .pipe(concat("app.min.js"))
         .pipe(uglify())
         .on('error', function (err) { 
             console.log(err);

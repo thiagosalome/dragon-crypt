@@ -21,12 +21,15 @@ html(lang="pt-br")
           h1.main-form__title 
             | Dragon
             span Crypt
-        label Password:
-        input.main-form__input.js-password(type="password", name="")
+        label Phrase:
+        textarea(name="", cols="30", rows="3").main-form__input.js-phrase
+        label Index:
+        input.main-form__input.js-index(type="number", name="")
         label Suffix:
-        input.main-form__input.js-sufix(type="text", name="")
+        input.main-form__input.js-suffix(type="text", name="")
         input.main-form__button(type="submit", value="Transformar")
         p.main-response Hello Dragon
+    script(src="../../../dist/assets/js/app.js")
             
            
 
