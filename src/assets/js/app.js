@@ -1,3 +1,5 @@
+import Cipher from "./cipher";
+
 const mainForm = document.querySelector(".js-main-form");
 const password = document.querySelector(".js-phrase");
 const index = document.querySelector(".js-index");

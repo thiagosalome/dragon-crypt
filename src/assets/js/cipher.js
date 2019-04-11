@@ -2,21 +2,24 @@ class Cipher{
 	
 	constructor(password, index, suffix){
 		let alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
-		let numeric      = ['0','1','2','3','4','5','6','7','8','9'];
-		let numericAlpha = ['o','i','l','e','a','s','g','z','b','j'];
-		
+		this.numeric      = ['0','1','2','3','4','5','6','7','8','9'];
+		this.numericAlpha = ['o','i','l','e','a','s','g','z','b','j'];
 		this.password = password;
 		this.index = index;
 		this.suffix = suffix;
 	}
 
 	encrypt(){
-		let spaces = /\s/g; //Representa todos os espacos
-		// newMessage = message.replace(spaces, '').split(''); //Tirando espaços e separando em letras
-	
-		console.log(this.password);
-		console.log(this.index);
-		console.log(this.suffix);
+		// essa e uma mensagem de teste
+		let message = this.password.value;
+		let matches = message.match(/\b(\w)/g);
+		let newMessage = matches.join(''); // eeumdt
+
+		for (let i = 0; i < this.numericAlpha.length; i++) {
+			let regex = new RegExp(this.numericAlpha[i], "g");
+			newMessage = newMessage.replace(regex, this.numeric[i]);
+		}
+		debugger;
 		/*
 			1 - Quebrar em espaços
 			2 - Pegar sempre a primeira letra

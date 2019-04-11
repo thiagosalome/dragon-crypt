@@ -15,12 +15,14 @@ main{
 
 .main-form{
   background-color: #ffffff;
+  border-radius: 5px;
   padding: 20px;
-  width: 300px;
+  width: 400px;
 
   header{
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-bottom: 20px;
   }
 
@@ -37,7 +39,6 @@ main{
     
     span{
       font-family: inherit;
-      // font-weight: lighter;
       color: #56D353;
     }
   }
@@ -61,7 +62,6 @@ main{
     color: #ffffff;
     padding: 15px 20px;
     border-radius: 5px;
-    // background-color: #56D353;
     background-color: #F4516D;
     transition: all 0.2s ease-in-out;
     font-size: 18px;
@@ -70,7 +70,6 @@ main{
     
     &:hover{
       cursor: pointer;
-      // background-color: #3cbd3a;
       background-color: rgb(223, 66, 92);
     }
   }
