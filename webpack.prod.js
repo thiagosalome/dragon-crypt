@@ -45,7 +45,7 @@ module.exports = merge(common, {
       background_color: '#F4516D',
       theme_color: '#F4516D',
       'theme-color': '#F4516D',
-      start_url: '/',
+      start_url: 'https://thiagosalome.github.io/dragon-crypt/dist/',
       icons: [
         {
           src: path.resolve('src/assets/images/dragon.png'),

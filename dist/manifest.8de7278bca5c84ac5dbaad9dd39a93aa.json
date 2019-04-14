@@ -35,7 +35,7 @@
   "short_name": "Dragon Crypt",
   "orientation": "portrait",
   "display": "standalone",
-  "start_url": "/",
+  "start_url": "https://thiagosalome.github.io/dragon-crypt/dist/",
   "description": "Applying password encryption from a phrase",
   "background_color": "#F4516D",
   "theme_color": "#F4516D",
