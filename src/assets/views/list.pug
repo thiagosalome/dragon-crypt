@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+html(lang="pt-br")
+  head
+    //- meta tags
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    //- link css
+    link(rel="stylesheet", href="./assets/css/app.css")
+    link(rel="shortcut icon", href="./assets/images/dragon.png", type="image/x-icon")
+    //- link fontawesome
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+    link(href="https://fonts.googleapis.com/css?family=Lato", rel="stylesheet")
+    //- site title
+    title=htmlWebpackPlugin.options.title
+  body
+    main
+      .main-content
+        header
+          img.main-list__logo(src="./assets/images/dragon.png", alt="Dragon Crypt", title="Dragon Crypt")
+          h1.main-list__title 
+            | Dragon
+            span Crypt
+        img.main-list__load.js-load(src="./assets/images/load.gif", alt="Carregando...", title="Carregando...")
+        ul.main-list.js-main-list
+        a.main-content__clear.js-main-clear(href="/" title="Limpar memória") Limpar memória
+        a.main-content__link(href="/" title="Cadastrar nova senha") Cadastrar nova senha

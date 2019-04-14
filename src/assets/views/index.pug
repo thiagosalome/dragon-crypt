@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 html(lang="pt-br")
   head
     //- meta tags
@@ -11,25 +10,25 @@ html(lang="pt-br")
     //- link fontawesome
     link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
     link(href="https://fonts.googleapis.com/css?family=Lato", rel="stylesheet")
-    //- site title
-    title Dragon Crypt
+    title=htmlWebpackPlugin.options.title
   body
     main
-      form.main-form.js-main-form(action="")
-        header
-          img.main-form__logo(src="./assets/images/dragon.png", alt="Dragon Crypt", title="Dragon Crypt")
-          h1.main-form__title 
-            | Dragon
-            span Crypt
-        label Phrase:
-        textarea(name="", cols="30", rows="3").main-form__input.js-phrase
-        label Index:
-        input.main-form__input.js-index(type="number", name="")
-        label Suffix:
-        input.main-form__input.js-suffix(type="text", name="")
-        input.main-form__button(type="submit", value="Encriptar")
-        p.main-response Hello Dragon
-    script(src="../../../dist/assets/js/app.js")
-            
-           
-
+      .main-content
+        form.main-form.js-main-form(action="#")
+          header
+            img.main-form__logo(src="./assets/images/dragon.png", alt="Dragon Crypt", title="Dragon Crypt")
+            h1.main-form__title
+              | Dragon
+              span Crypt
+          label Phrase:
+          textarea(name="phrase", cols="30", rows="3").main-form__input.js-phrase
+          label Index:
+          input(type="number", name="index").main-form__input.js-index
+          label Suffix:
+          input(type="text", name="suffix").main-form__input.js-suffix
+          input.main-form__button(type="submit", value="Encriptar")
+        p.main-form__response.js-response-password
+        img.main-form__load.js-load(src="./assets/images/load.gif", alt="Carregando...", title="Carregando...")
+        hr
+        a.main-content__link(href="/list.html" title="Cadastrar nova senha") Ver minhas senhas
+        

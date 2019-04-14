@@ -1,0 +1,44 @@
+.main-list{
+  display: block;
+  margin: auto;
+  max-width: 400px;
+
+  &__logo{
+    width: 50px;
+    animation: floating 1s infinite;
+  }
+
+  &__title{
+    font-family: 'Germania One', cursive;
+    font-size: 30px;
+    margin-left: 20px;
+    color: #2e2e2e;
+    
+    span{
+      font-family: inherit;
+      color: #56D353;
+    }
+  }
+
+  &__load{
+    max-width: 40px;
+    margin: auto;
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    display: block;
+    transition: all 0.5s ease-in-out;
+
+    &.active{
+      opacity: 1;
+      visibility: visible;
+      height: auto;
+    }
+  }
+
+  li{
+    color: #424242;
+    padding: 10px 0;
+    border-bottom: 1px solid #d1d1d1;
+  }
+}

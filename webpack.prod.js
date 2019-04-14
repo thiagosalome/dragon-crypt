@@ -27,7 +27,7 @@ module.exports = merge(common, {
     ])
   ],
   output: {
-    filename : `assets/js/app.min.js`,
+    filename : `assets/js/[name].min.js`,
     path: path.resolve(__dirname, 'dist')
   }
 });

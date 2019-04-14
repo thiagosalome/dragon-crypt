@@ -4,19 +4,30 @@ const miniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
   entry: {
-    app: [
-      path.resolve(__dirname, './src/assets/js/app.js'),
-      path.resolve(__dirname, "./src/assets/styles/app.scss")
+    home: [
+      path.resolve(__dirname, './src/assets/js/home.js'),
+      path.resolve(__dirname, "./src/assets/styles/home.scss")
+    ],
+    internal: [
+      path.resolve(__dirname, './src/assets/js/internal.js'),
+      path.resolve(__dirname, "./src/assets/styles/internal.scss")
     ]
   },
   plugins : [
     new htmlWebpackPlugin({
       template : path.resolve(__dirname, "./src/assets/views/index.pug"),
-      title : "Dragon Crypt",
-      chunks : ["app"]
+      title : "Dragon Crypt - Form",
+      filename : 'index.html',
+      chunks : ["home"]
+    }),
+    new htmlWebpackPlugin({
+      template : path.resolve(__dirname, "./src/assets/views/list.pug"),
+      title : "Dragon Crypt - List",
+      filename : 'list.html',
+      chunks : ["internal"]
     }),
     new miniCssExtractPlugin({
-      filename : `./assets/styles/app.min.css`
+      filename : `./assets/styles/[name].min.css`
     })
   ],
   module: {
