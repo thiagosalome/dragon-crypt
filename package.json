@@ -2,6 +2,7 @@
   "name": "otimizacao",
   "version": "1.0.0",
   "description": "Aplicação criada no intuito de realizar cálculos de otimização",
+  "homepage": "https://thiagosalome.github.io/dragon-crypt/dist/",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.dev.js",

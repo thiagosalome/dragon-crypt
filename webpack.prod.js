@@ -6,7 +6,7 @@ const uglifyjsWebpackPlugin = require("uglifyjs-webpack-plugin");
 const copyWebpackPlugin = require("copy-webpack-plugin");
 const swPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
 const webpackPwaManifest = require('webpack-pwa-manifest');
-const PUBLIC_PATH = "https://thiagosalome.github.io/dragon-crypt/dist"
+const PUBLIC_PATH = "https://thiagosalome.github.io/dragon-crypt/dist/"
 
 module.exports = merge(common, {
   mode: 'production',
@@ -57,7 +57,7 @@ module.exports = merge(common, {
   ],
   output: {
     filename : `assets/js/[name].min.js`,
-    path: path.resolve(__dirname, 'dist'),
-    // publicPath : PUBLIC_PATH
+    // path: path.resolve(__dirname, 'dist'),
+    publicPath : PUBLIC_PATH
   }
 });
