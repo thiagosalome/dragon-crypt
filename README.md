@@ -1,6 +1,6 @@
 <!-- Logo -->
 <p align="center">
-  <img src="./github/logo.png" alt="Dragon Crypt" title="Dragon Crypt">
+  <img src="./.github/logo.png" alt="Dragon Crypt" title="Dragon Crypt">
 </p>
 
 <!-- Badges -->
@@ -68,11 +68,11 @@ O **DragonCrypt** foi um projeto criado com o objetivo de encriptar uma frase di
 
 ### Web
 
-<img src="./github/preview-web.gif" alt="Preview Web" title="Preview Web">
+<img src="./.github/preview-web.gif" alt="Preview Web" title="Preview Web">
 
 ### Mobile
 
-<img width="200" src="./github/preview-mobile.gif" alt="Preview Mobile" title="Preview Mobile">
+<img width="200" src="./.github/preview-mobile.gif" alt="Preview Mobile" title="Preview Mobile">
 
 ## :rocket: Executando o projeto
 
@@ -99,29 +99,6 @@ Para executar o projeto é necessário ter instalado as seguintes ferramentas:
   </tbody>
 </table>
 
-### Rodando o servidor
-
-**OBS:** Necessário estar rodando para executar a parte web e mobile
-
-```bash
-# Clone este repositório
-$ git clone https://github.com/thiagosalome/dragon-crypt
-
-# Acesse a pasta do projeto
-$ cd Dragon Crypt
-
-# Vá para a pasta server
-$ cd server
-
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev
-
-# O servidor inciará na porta:3333 - acesse http://localhost:3333
-```
-
 ### Rodando aplicação web
 
 ```bash
@@ -129,7 +106,7 @@ $ npm run dev
 $ git clone https://github.com/thiagosalome/dragon-crypt
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd Dragon Crypt
+$ cd dragon-crypt
 
 # Vá para a pasta da aplicação Front End
 $ cd web
@@ -138,30 +115,7 @@ $ cd web
 $ npm install
 
 # Execute a aplicação em modo de desenvolvimento
-$ npm run start
-
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
-```
-
-### Rodando aplicação mobile
-
-**OBS:** Necessário ter o Expo instalado em seu dispositivo mobile ou no emulador.
-
-```bash
-# Clone este repositório
-$ git clone https://github.com/thiagosalome/dragon-crypt
-
-# Acesse a pasta do projeto no seu terminal/cmd
-$ cd Dragon Crypt
-
-# Vá para a pasta da aplicação Front End
-$ cd mobile
-
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm run start
+$ npm run dev
 
 # A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 ```
