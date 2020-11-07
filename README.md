@@ -30,8 +30,8 @@ O **DragonCrypt** foi um projeto criado com o objetivo de encriptar uma frase di
 
 - [x] Criptografar uma frase e gerar uma senha com base nas seguintes entradas:
   - [x] Frase: Uma frase qualquer pensada pelo usuário (Ex: Mais vale um pássaro na mão do que dois voando)
-  - [x] Sufixo: Uma determinada sequência de caracteres
-  - [x] Índice: Um número referente ao índice de um determinado caractere da frase
+  - [x] Sufixo: Uma determinada sequência de caracteres (Ex: abc)
+  - [x] Índice: Um número referente ao índice de um determinado caractere da frase (Ex: 3)
 - [x] Salvar a senha gerada em Local Storage
 - [x] Instalar a aplicação no dispositivo do usuário com a possibilidade de utilizá-lo offline (PWA)
 
