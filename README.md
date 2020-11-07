@@ -66,7 +66,7 @@ O **DragonCrypt** foi um projeto criado com o objetivo de encriptar uma frase di
 
 ## :movie_camera: Preview
 
-### Web
+### Desktop
 
 <img src="./.github/preview-web.gif" alt="Preview Web" title="Preview Web">
 
