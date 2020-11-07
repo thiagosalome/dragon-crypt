@@ -22,7 +22,6 @@
   "bugs": {
     "url": "https://github.com/thiagosalome/otimizacao/issues"
   },
-  "homepage": "https://github.com/thiagosalome/otimizacao#readme",
   "devDependencies": {
     "@babel/core": "^7.3.3",
     "@babel/preset-env": "^7.3.1",
