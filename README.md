@@ -66,13 +66,13 @@ O **DragonCrypt** foi um projeto criado com o objetivo de encriptar uma frase di
 
 ## :movie_camera: Preview
 
-### Desktop
+### Web Desktop
 
-<img src="./.github/preview-web.gif" alt="Preview Web" title="Preview Web">
+<img src="./.github/preview-web-desktop.gif" alt="Preview Web Desktop" title="Preview Web Desktop">
 
-### Mobile
+### Web Mobile
 
-<img width="200" src="./.github/preview-mobile.gif" alt="Preview Mobile" title="Preview Mobile">
+<img width="200" src="./.github/preview-web-mobile.gif" alt="Preview Web Mobile" title="Preview Web Mobile">
 
 ## :rocket: Executando o projeto
 
