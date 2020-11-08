@@ -108,9 +108,6 @@ $ git clone https://github.com/thiagosalome/dragon-crypt
 # Acesse a pasta do projeto no seu terminal/cmd
 $ cd dragon-crypt
 
-# Vá para a pasta da aplicação Front End
-$ cd web
-
 # Instale as dependências
 $ npm install
 
